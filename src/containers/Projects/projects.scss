@@ -1,0 +1,51 @@
+.academic_projects {
+  padding: 0.25rem;
+  height: 100%;
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  svg {
+    margin-bottom: 2px;
+  }
+  section {
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .certifications {
+    margin-top: 3rem;
+  }
+}
+
+.org_proj {
+  padding: 0.25rem;
+  height: 100%;
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  svg {
+    margin-bottom: 2px;
+  }
+  section {
+    margin-top: 1rem;
+    div {
+      margin: 0.25rem;
+      text-decoration: underline;
+    }
+    section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      svg {
+        flex-basis: 29px;
+        flex: 0.1;
+      }
+    }
+  }
+}

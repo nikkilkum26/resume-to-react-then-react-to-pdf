@@ -1,0 +1,12 @@
+.split__viewContainer{
+    display: flex;
+}
+.leftbar__container{
+    background-color: var(--lightGray-color);
+    flex:1;
+}
+.mainView__container{
+    background-color: #ffff;
+    flex:2;
+   
+}

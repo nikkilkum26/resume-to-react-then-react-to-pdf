@@ -1,0 +1,55 @@
+.tech__skills {
+  padding: 0.25rem;
+  height: 100%;
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  svg {
+    margin-bottom: 2px;
+  }
+  section {
+    line-height: 1.5;
+    padding: 0.25rem;
+  }
+  .internship {
+    margin-top: 3rem;
+  }
+}
+
+.work__exp__container {
+  padding: 0.25rem;
+  height: 100%;
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  svg {
+    margin-bottom: 2px;
+  }
+  section {
+    margin-top: 0.25rem;
+    min-height: 50px;
+    div {
+      height: 50px;
+      width: 100%;
+      color: #fff;
+      background-color: var(--secondary-color);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      letter-spacing: 1px;
+      font-size: 20px;
+      padding: 0 15px;
+    }
+    section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
